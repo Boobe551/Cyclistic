@@ -1,0 +1,24 @@
+---
+title: "Cyclistic_Analysis"
+author: "Ebubechukwu Okoye"
+date: "2024-02-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+### Viewing the Dataset
+#### Loading Packages
+```{r loading Packages}
+library(tidyverse)
+library(here)
+library(skimr)
+library(janitor)
+```
+#### Importing Datasets
+```{r importing dataset}
+trips_2019 = read.csv("Divvy_Trips_2019_Q1.csv")
+trips_2020 = read.csv("Divvy_Trips_2020_Q1.csv")
+```
+
